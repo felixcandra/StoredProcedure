@@ -36,7 +36,7 @@ namespace StoredProcManual.Controllers
                 {
                     guestList.Add(new Guest()
                     {
-                        //Id = Convert.ToInt32(dr[0]),
+                        Id = Convert.ToInt32(dr[0]),
                         FirstName = Convert.ToString(dr[1]),
                         LastName = Convert.ToString(dr[2]),
                         Age = Convert.ToInt32(dr[3])
